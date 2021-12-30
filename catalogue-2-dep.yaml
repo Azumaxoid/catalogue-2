@@ -29,13 +29,13 @@ spec:
         - name: NEW_RELIC_APP_NAME
           value: k8s_catalogue-2
         - name: NEW_RELIC_LICENSE_KEY
-          value: 4a91dbcc8d10a3ca560b9713ba3f21e72732NRAL
+          value: eeb7295ea271868ac1048f0bb4e38cf0FFFFNRAL
         - name: NEW_RELIC_DISTRIBUTED_TRACING_ENABLED
           value: "true"
         - name: NEW_RELIC_DISABLE_VM_SAMPLER
           value: "true"
         - name: NEW_RELIC_INFINITE_TRACING_TRACE_OBSERVER_HOST
-          value: 04f23304-ae8f-4232-b884-a51dc9a41baf.aws-ap-southeast-1.tracing.edge.nr-data.net
+          value: 448bdf21-6ae0-48d8-a693-fd11b898ae22.aws-us-west-2.tracing.edge.nr-data.net
         - name: DB_HOST
           value: catalogue-db-2
         - name: RAILS_LOG_TO_STDOUT
