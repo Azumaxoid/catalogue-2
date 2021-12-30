@@ -6,7 +6,7 @@ services:
         - COMMIT_SHA='commit_sha'
         - RELEASE_TAG='dev'
     image: azumax/catalogue-2:test
-    container_name: "catalogue"
+    container_name: "catalogue-2"
     environment:
       - NEW_RELIC_APP_NAME=local_catalogue-2
       - NEW_RELIC_LICENSE_KEY=
